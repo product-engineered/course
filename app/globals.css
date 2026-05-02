@@ -55,6 +55,10 @@ body {
   animation-delay: 300ms;
 }
 
+.page-load-7 {
+  animation-delay: 360ms;
+}
+
 @keyframes page-load-in {
   from {
     opacity: 0;
@@ -67,8 +71,26 @@ body {
   }
 }
 
+@keyframes tag-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.q2-tag {
+  animation: tag-fade-in 900ms ease-out 300ms both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .page-load {
+    animation: none;
+  }
+
+  .q2-tag {
     animation: none;
   }
 }
