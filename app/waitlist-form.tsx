@@ -30,7 +30,7 @@ export function WaitlistForm() {
       action={formAction}
       className="page-load page-load-6 mt-10 flex w-full max-w-2xl flex-col gap-3"
     >
-      <div className="flex flex-col gap-0 border border-ink sm:flex-row">
+      <div className="flex flex-col gap-0 border border-black sm:flex-row">
         <label htmlFor="email" className="sr-only">
           Email address
         </label>
@@ -41,7 +41,7 @@ export function WaitlistForm() {
           required
           placeholder="you@company.com"
           aria-describedby={state.message ? "waitlist-status" : undefined}
-          className="min-h-13 flex-1 border-0 border-b border-ink bg-paper px-4 font-mono text-sm text-ink outline-none transition placeholder:text-brand-gray-400 focus:bg-brand-gray-50 disabled:cursor-not-allowed disabled:opacity-65 sm:border-r sm:border-b-0"
+          className="min-h-13 flex-1 border-0 border-b border-black bg-neutral-0 px-4 font-mono text-sm text-black outline-none transition placeholder:text-neutral-400 focus:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-65 sm:border-r sm:border-b-0"
           disabled={pending}
         />
         <WaitlistButton />
@@ -51,7 +51,7 @@ export function WaitlistForm() {
         role="status"
         aria-live="polite"
         className={`min-h-5 text-left font-mono text-xs ${
-          state.status === "success" ? "text-signal-green" : "text-brand-gray-500"
+          state.status === "success" ? "text-green" : "text-neutral-500"
         }`}
       >
         {state.message}

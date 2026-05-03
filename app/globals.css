@@ -1,39 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  --background: var(--color-paper);
-  --foreground: var(--color-ink);
+  --background: var(--color-neutral-0);
+  --foreground: var(--color-black);
 }
 
 @theme {
-  --color-paper: #f4f1e8;
-  --color-ink: #1a1814;
-  --color-brand-gray-50: #ece8de;
-  --color-brand-gray-100: #ddd8cc;
-  --color-brand-gray-200: #c5bfb1;
-  --color-brand-gray-300: #a8a294;
-  --color-brand-gray-400: #8b8579;
-  --color-brand-gray-500: #6e695e;
-  --color-brand-gray-600: #524e45;
-  --color-brand-gray-700: #3a3730;
-  --color-brand-gray-800: #2a2722;
-  --color-brand-gray-900: #1a1814;
-  --color-signal-red: #b83a2e;
-  --color-signal-orange: #c45a1e;
-  --color-signal-yellow: #d4a41c;
-  --color-signal-green: #2e6b3f;
-  --color-signal-cyan: #1a8ba8;
-  --color-signal-blue: #1e3f8c;
-  --color-signal-violet: #5a3d8c;
-  --color-signal-magenta: #b22f75;
-  --color-earth-brick: #8c3a30;
-  --color-earth-rust: #964a20;
-  --color-earth-ochre: #a88424;
-  --color-earth-olive: #6b6e2e;
-  --color-earth-teal: #2f6b6f;
-  --color-earth-indigo: #2d4885;
-  --color-earth-plum: #5c3a6e;
-  --color-earth-wine: #8a2f58;
+  --color-red: #c8362f;
+  --color-green: #2c7a3f;
+  --color-yellow: #ddb033;
+  --color-blue: #1f47bb;
+  --color-magenta: #b0307a;
+  --color-cyan: #0e8aa0;
+  --color-black: #161616;
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f5f5f5;
+  --color-neutral-100: #eaeaea;
+  --color-neutral-200: #d6d6d6;
+  --color-neutral-300: #bababa;
+  --color-neutral-400: #9c9c9c;
+  --color-neutral-500: #7e7e7e;
+  --color-neutral-600: #606060;
+  --color-neutral-700: #444444;
+  --color-neutral-800: #2c2c2c;
+  --color-neutral-900: #1a1a1a;
+  --color-neutral-1000: #000000;
+  --color-olive: #6f7b2e;
+  --color-teal: #2d7373;
+  --color-indigo: #2a3580;
+  --color-plum: #722a5c;
+  --color-brick: #8b2030;
+  --color-orange: #c75a1e;
+  --color-amber: #b8851a;
 }
 
 @theme inline {
@@ -50,7 +48,7 @@ body {
 }
 
 .landing-grid {
-  background-color: var(--color-brand-gray-100);
+  background-color: var(--color-neutral-100);
 }
 
 .page-load {
@@ -69,9 +67,4 @@ body {
   .q2-tag {
     animation: none;
   }
-}
-
-::selection {
-  background: var(--color-signal-yellow);
-  color: var(--color-ink);
 }

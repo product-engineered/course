@@ -35,31 +35,29 @@ Use `pnpm` for this project. Do not use `npm`, `npx`, `yarn`, or `bun` for depen
 ## Colors
 | Group | Name | Hex |
 |---|---|---|
-| Foundation | Paper | `#F4F1E8` |
-| Foundation | Ink | `#1A1814` |
-| Neutrals | Gray 50 | `#ECE8DE` |
-| Neutrals | Gray 100 | `#DDD8CC` |
-| Neutrals | Gray 200 | `#C5BFB1` |
-| Neutrals | Gray 300 | `#A8A294` |
-| Neutrals | Gray 400 | `#8B8579` |
-| Neutrals | Gray 500 | `#6E695E` |
-| Neutrals | Gray 600 | `#524E45` |
-| Neutrals | Gray 700 | `#3A3730` |
-| Neutrals | Gray 800 | `#2A2722` |
-| Neutrals | Gray 900 | `#1A1814` |
-| Signal | Red | `#B83A2E` |
-| Signal | Orange | `#C45A1E` |
-| Signal | Yellow | `#D4A41C` |
-| Signal | Green | `#2E6B3F` |
-| Signal | Cyan | `#1A8BA8` |
-| Signal | Blue | `#1E3F8C` |
-| Signal | Violet | `#5A3D8C` |
-| Signal | Magenta | `#B22F75` |
-| Earth | Brick | `#8C3A30` |
-| Earth | Rust | `#964A20` |
-| Earth | Ochre | `#A88424` |
-| Earth | Olive | `#6B6E2E` |
-| Earth | Teal | `#2F6B6F` |
-| Earth | Indigo | `#2D4885` |
-| Earth | Plum | `#5C3A6E` |
-| Earth | Wine | `#8A2F58` |
+| Primary Signal | Red | `#C8362F` |
+| Primary Signal | Green | `#2C7A3F` |
+| Primary Signal | Yellow | `#DDB033` |
+| Primary Signal | Blue | `#1F47BB` |
+| Primary Signal | Magenta | `#B0307A` |
+| Primary Signal | Cyan | `#0E8AA0` |
+| Primary Signal | Black | `#161616` |
+| Neutrals | 0 | `#FFFFFF` |
+| Neutrals | 50 | `#F5F5F5` |
+| Neutrals | 100 | `#EAEAEA` |
+| Neutrals | 200 | `#D6D6D6` |
+| Neutrals | 300 | `#BABABA` |
+| Neutrals | 400 | `#9C9C9C` |
+| Neutrals | 500 | `#7E7E7E` |
+| Neutrals | 600 | `#606060` |
+| Neutrals | 700 | `#444444` |
+| Neutrals | 800 | `#2C2C2C` |
+| Neutrals | 900 | `#1A1A1A` |
+| Neutrals | 1000 | `#000000` |
+| Extended | Olive | `#6F7B2E` |
+| Extended | Teal | `#2D7373` |
+| Extended | Indigo | `#2A3580` |
+| Extended | Plum | `#722A5C` |
+| Extended | Brick | `#8B2030` |
+| Extended | Orange | `#C75A1E` |
+| Extended | Amber | `#B8851A` |
