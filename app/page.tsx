@@ -6,40 +6,60 @@ const heroTitleStyle = {
   lineHeight: 1,
 } satisfies CSSProperties;
 
-const heroLineStyle = {
-  display: "block",
+const logoMarkStyle = {
+  letterSpacing: "-0.06em",
 } satisfies CSSProperties;
 
 export default function Home() {
   return (
     <main className="landing-grid min-h-screen px-4 py-4 text-black sm:py-6">
-      <div className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl flex-col border border-neutral-400 bg-neutral-0 sm:min-h-[calc(100vh-3rem)]">
-        <header className="flex items-center justify-between border-b border-neutral-400 px-5 py-4 sm:px-8 lg:px-12">
-          <a
-            href="#waitlist"
-            className="font-mono text-xs font-semibold uppercase tracking-normal text-black sm:text-sm"
-          >
-            Agentic Engineering in Production
-          </a>
+      <div className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl flex-col border border-neutral-400 bg-neutral-0 shadow-[2px_2px_0_0_var(--color-neutral-300)] sm:min-h-[calc(100vh-3rem)]">
+        <header className="px-5 py-5 sm:px-6">
+          <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-0 items-center">
+              <h1
+                className="font-bold text-xs tracking-normal text-black sm:text-base"
+              >
+                Agentic Engineering in Production
+              </h1>
+              <div className="flex">
+                <div className="bg-red h-1.5 w-11"></div>
+                <div className="bg-green h-1.5 w-11"></div>
+                <div className="bg-yellow h-1.5 w-11"></div>
+                <div className="bg-blue h-1.5 w-11"></div>
+                <div className="bg-magenta h-1.5 w-11"></div>
+                <div className="bg-cyan h-1.5 w-11"></div>
+              </div>
+            </div>
+            <div className="flex shrink-0 items-center gap-2">
+              <span
+                className="font-mono text-[11px] font-medium italic leading-none text-black sm:text-xs"
+                style={logoMarkStyle}
+              >
+                by
+              </span>
+              <a
+                href="https://productengineered.com"
+                className="bg-blue px-3 py-2 font-mono text-[11px] font-extrabold italic leading-none text-neutral-0 uppercase transition-colors hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red sm:text-xs"
+                style={logoMarkStyle}
+              >
+                Product Engineered
+              </a>
+            </div>
+          </div>
+          <div className="mt-5 border-t border-neutral-400" />
         </header>
 
-        <section className="flex flex-1 items-center px-5 py-12 sm:px-8 lg:px-12 lg:py-16">
+        <section className="flex px-5">
           <div className="flex w-full max-w-5xl flex-col items-start text-left">
             <h1
-              className="max-w-5xl text-4xl font-semibold tracking-normal text-black sm:text-6xl lg:text-7xl"
+              className="max-w-5xl text-4xl font-bold tracking-normal text-black sm:text-6xl lg:text-7xl"
               style={heroTitleStyle}
             >
-              <span className="page-load page-load-1" style={heroLineStyle}>
-                Skip the vibe coding.
-              </span>
-              <span className="page-load page-load-2" style={heroLineStyle}>
-                Deliver production-grade
-              </span>
-              <span className="page-load page-load-3" style={heroLineStyle}>
-                software with AI
-              </span>
+                <span className="block">Skip the vibe coding.</span>
+                <span className="block">Learn to deliver production-grade software with AI.</span>
             </h1>
-            <p className="page-load page-load-4 mt-7 max-w-2xl border-l border-neutral-400 pl-4 text-base leading-7 text-neutral-600 sm:text-lg">
+            <p className="mt-7 max-w-2xl border-l border-neutral-400 pl-4 text-base leading-7 text-neutral-600 sm:text-lg">
               Agentic Engineering in Production is your playbook for shipping real
               software with AI.
             </p>
@@ -48,17 +68,19 @@ export default function Home() {
           </div>
         </section>
 
-        <footer className="border-t border-black px-5 py-4 sm:px-8 lg:px-12">
-          <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
-            <p>
-              Follow on X:{" "}
-              <a
-                href="https://x.com/mulholo"
-                className="underline decoration-neutral-400 underline-offset-2 transition-colors hover:text-black"
-              >
-                @mulholo
-              </a>
-            </p>
+        <footer className="px-5 py-4 sm:px-6">
+          <div className="border-t border-black pt-4">
+            <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
+              <p>
+                Follow on X:{" "}
+                <a
+                  href="https://x.com/mulholo"
+                  className="underline decoration-neutral-400 underline-offset-2 transition-colors hover:text-black"
+                >
+                  @mulholo
+                </a>
+              </p>
+            </div>
           </div>
         </footer>
       </div>

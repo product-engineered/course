@@ -50,21 +50,3 @@ body {
 .landing-grid {
   background-color: var(--color-neutral-100);
 }
-
-.page-load {
-  opacity: 1;
-}
-
-.q2-tag {
-  opacity: 1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page-load {
-    animation: none;
-  }
-
-  .q2-tag {
-    animation: none;
-  }
-}

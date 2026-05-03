@@ -30,7 +30,7 @@ export function WaitlistForm() {
       action={formAction}
       className="page-load page-load-6 mt-10 flex w-full max-w-2xl flex-col gap-3"
     >
-      <div className="flex flex-col gap-0 border border-black sm:flex-row">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start">
         <label htmlFor="email" className="sr-only">
           Email address
         </label>
@@ -41,7 +41,7 @@ export function WaitlistForm() {
           required
           placeholder="you@company.com"
           aria-describedby={state.message ? "waitlist-status" : undefined}
-          className="min-h-13 flex-1 border-0 border-b border-black bg-neutral-0 px-4 font-mono text-sm text-black outline-none transition placeholder:text-neutral-400 focus:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-65 sm:border-r sm:border-b-0"
+          className="min-h-11 w-full border border-black bg-neutral-0 px-3 text-sm text-black shadow-[2px_2px_0_0_var(--color-neutral-300)] outline-none transition placeholder:text-neutral-400 focus:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-65 sm:max-w-sm font-mono"
           disabled={pending}
         />
         <WaitlistButton />
