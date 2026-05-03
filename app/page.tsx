@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="landing-grid min-h-screen px-4 py-4 text-black sm:py-6">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl flex-col border border-neutral-400 bg-neutral-0 shadow-[2px_2px_0_0_var(--color-neutral-300)] sm:min-h-[calc(100vh-3rem)]">
-        <header className="px-5 py-5 sm:px-6">
+        <header className="px-5 py-5 sm:px-8">
           <div className="flex items-center justify-between gap-3 flex-col sm:flex-row">
             <div className="flex flex-col gap-0 items-center">
               <h1
@@ -50,14 +50,14 @@ export default function Home() {
           <div className="mt-5 border-t border-neutral-400" />
         </header>
 
-        <section className="flex px-5">
+        <section className="flex px-5 sm:px-8">
           <div className="flex w-full max-w-5xl flex-col items-start text-left">
             <h1
               className="max-w-5xl text-3xl font-bold tracking-normal text-black sm:text-5xl lg:text-6xl"
               style={heroTitleStyle}
             >
                 <span className="block">Skip the vibe coding.</span>
-                <span className="block">Learn to deliver production-grade software with AI.</span>
+                <span className="block">Learn to deliver production-grade ️software with AI.</span>
             </h1>
             <p className="mt-7 max-w-2xl border-l border-neutral-400 pl-4 text-base leading-7 text-neutral-600 sm:text-lg">
               Agentic Engineering in Production is your playbook for shipping real
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </section>
 
-        <footer className="px-5 py-4 sm:px-6">
+        <footer className="px-5 py-4 sm:px-8">
           <div className="border-t border-black pt-4">
             <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
               <p>
