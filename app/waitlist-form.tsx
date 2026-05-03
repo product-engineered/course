@@ -41,7 +41,7 @@ export function WaitlistForm() {
           required
           placeholder="you@company.com"
           aria-describedby={state.message ? "waitlist-status" : undefined}
-          className="min-h-11 w-full border border-black bg-neutral-0 px-3 text-sm text-black shadow-[2px_2px_0_0_var(--color-neutral-300)] outline-none transition placeholder:text-neutral-400 focus:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-65 sm:max-w-sm font-mono"
+          className="min-h-11 w-full border border-black bg-neutral-0 px-3 text-sm text-black shadow-[2px_2px_0_0_var(--color-neutral-300)] transition placeholder:text-neutral-400 disabled:cursor-not-allowed disabled:opacity-65 sm:max-w-sm font-mono"
           disabled={pending}
         />
         <WaitlistButton />

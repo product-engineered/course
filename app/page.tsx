@@ -15,10 +15,10 @@ export default function Home() {
     <main className="landing-grid min-h-screen px-4 py-4 text-black sm:py-6">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl flex-col border border-neutral-400 bg-neutral-0 shadow-[2px_2px_0_0_var(--color-neutral-300)] sm:min-h-[calc(100vh-3rem)]">
         <header className="px-5 py-5 sm:px-6">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4 flex-col sm:flex-row">
             <div className="flex flex-col gap-0 items-center">
               <h1
-                className="font-bold text-xs tracking-normal text-black sm:text-base"
+                className="font-bold tracking-normal text-black sm:text-base"
               >
                 Agentic Engineering in Production
               </h1>
@@ -40,7 +40,7 @@ export default function Home() {
               </span>
               <a
                 href="https://productengineered.com"
-                className="bg-blue px-3 py-2 font-mono text-[11px] font-extrabold italic leading-none text-neutral-0 uppercase transition-colors hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-red sm:text-xs"
+                className="bg-blue px-3 py-2 font-mono text-[11px] font-extrabold italic leading-none text-neutral-0 uppercase transition-colors hover:bg-neutral-800 sm:text-xs"
                 style={logoMarkStyle}
               >
                 Product Engineered
@@ -53,7 +53,7 @@ export default function Home() {
         <section className="flex px-5">
           <div className="flex w-full max-w-5xl flex-col items-start text-left">
             <h1
-              className="max-w-5xl text-4xl font-bold tracking-normal text-black sm:text-6xl lg:text-7xl"
+              className="max-w-5xl text-2xl font-bold tracking-normal text-black sm:text-5xl lg:text-6xl"
               style={heroTitleStyle}
             >
                 <span className="block">Skip the vibe coding.</span>
