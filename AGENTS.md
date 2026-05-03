@@ -20,9 +20,15 @@ Use `pnpm` for this project. Do not use `npm`, `npx`, `yarn`, or `bun` for depen
 # Brand Guidelines
 
 ## Typography
-
 - Primary Font: Inter
 - Monospace: JetBrains Mono (monospace)
+
+## Vibe
+- Industrial modern
+- Inspiration: Braun, Vitsoe, Lockheed Martin, AT&T, 70s and 80s Apple, McMaster-Carr
+- Timeless
+- Simple, clear and easy to use
+- Prefer grid layouts
 
 ## Colors
 | Group | Name | Hex |
