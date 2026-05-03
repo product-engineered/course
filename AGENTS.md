@@ -17,52 +17,41 @@ Use `pnpm` for this project. Do not use `npm`, `npx`, `yarn`, or `bun` for depen
 <!-- END:package-manager-rules -->
 
 <!-- BEGIN:landing-page-brand-guidelines -->
-# Brand Guidelines: High-Contrast Terminal
+# Brand Guidelines
 
-Use these guidelines when building the landing page, especially above-the-fold sections.
+## Typography
 
-## 1. Typography
+- Primary Font: Inter
+- Monospace: JetBrains Mono (monospace)
 
-Use a "Pro-Tool" type pairing to balance clean UI with technical precision.
-
-- Primary Sans (UI & Headings): Inter
-- Heading styling: Tighten letter spacing to `-0.02em` for a premium, "Refactoring UI" feel.
-- Mono (Code & Data): JetBrains Mono
-- Mono usage: Use for code blocks, commit hashes, data metrics, and labels on the commit graph.
-
-## 2. Color Palette
-
-Avoid washed-out teals. Use high-saturation greens against a near-black base for maximum punch.
-
-| Role | Hex Code | Tailwind Equivalent |
-| --- | --- | --- |
-| Background (Main) | `#0A0A0A` | Zinc 950 (Modified) |
-| Surface (Cards/UI) | `#171717` | Neutral 900 |
-| Border (Subtle) | `#262626` | Neutral 800 |
-| Primary Accent | `#22C55E` | Green 500 |
-| Accent Glow/Hover | `#4ADE80` | Green 400 |
-| Text (Primary) | `#FAFAFA` | Neutral 50 |
-| Text (Secondary) | `#A3A3A3` | Neutral 400 |
-
-## 3. Commit Graph Specification
-
-Keep graph visuals modern with consistent luminosity and rounded geometry.
-
-- Geometry: `12px` by `12px` squares with a `2px` or `3px` border radius.
-- Grid gap: `3px` or `4px`.
-- L0 (Empty): `#1F2937` (Dark Blue-Grey)
-- L1 (Low): `#166534` (Deep Forest)
-- L2 (Mid): `#15803D` (Rich Green)
-- L3 (High): `#22C55E` (Brand Primary)
-- L4 (Peak): `#4ADE80` (Electric Lime). Use sparingly for "Aha!" moments.
-
-## 4. General Styling & UI Patterns
-
-Maintain an engineering-grade feel with these rules.
-
-- Borders over shadows: In dark mode, shadows often look muddy. Use a `1px solid #262626` border to define containers.
-- The AI glow: For AI-specific features, including the course's core value prop, apply a subtle `10px` outer glow using `#22C55E` at 20% opacity.
-- High-contrast emphasis: Active elements should receive a `2px` top border or `2px` left accent border in `#22C55E`.
-- De-emphasized labels: Do not label data that is obvious by placement. Use icons or primary green to communicate success or active states without redundant text.
-- Terminal aesthetic: Code or log surfaces should use `#000000`, slightly darker than the main surface, to feel like embedded terminals.
-<!-- END:landing-page-brand-guidelines -->
+## Colors
+| Group | Name | Hex |
+|---|---|---|
+| Foundation | Paper | `#F4F1E8` |
+| Foundation | Ink | `#1A1814` |
+| Neutrals | Gray 50 | `#ECE8DE` |
+| Neutrals | Gray 100 | `#DDD8CC` |
+| Neutrals | Gray 200 | `#C5BFB1` |
+| Neutrals | Gray 300 | `#A8A294` |
+| Neutrals | Gray 400 | `#8B8579` |
+| Neutrals | Gray 500 | `#6E695E` |
+| Neutrals | Gray 600 | `#524E45` |
+| Neutrals | Gray 700 | `#3A3730` |
+| Neutrals | Gray 800 | `#2A2722` |
+| Neutrals | Gray 900 | `#1A1814` |
+| Signal | Red | `#B83A2E` |
+| Signal | Orange | `#C45A1E` |
+| Signal | Yellow | `#D4A41C` |
+| Signal | Green | `#2E6B3F` |
+| Signal | Cyan | `#1A8BA8` |
+| Signal | Blue | `#1E3F8C` |
+| Signal | Violet | `#5A3D8C` |
+| Signal | Magenta | `#B22F75` |
+| Earth | Brick | `#8C3A30` |
+| Earth | Rust | `#964A20` |
+| Earth | Ochre | `#A88424` |
+| Earth | Olive | `#6B6E2E` |
+| Earth | Teal | `#2F6B6F` |
+| Earth | Indigo | `#2D4885` |
+| Earth | Plum | `#5C3A6E` |
+| Earth | Wine | `#8A2F58` |
