@@ -71,9 +71,9 @@ export default function Home() {
         <footer className="px-5 py-4 sm:px-8">
           <div className="border-t border-black pt-4">
             <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
-              <p>Copyright &copy; {new Date().getFullYear()} Product Engineered.</p>
+              <p>Copyright &copy; {new Date().getFullYear()} Product Engineered</p>
               <p>
-                Made by:{" "}
+                Made by{" "}
                 <a
                   href="https://x.com/mulholo"
                   className="underline decoration-neutral-400 underline-offset-2 transition-colors hover:text-black"
