@@ -73,7 +73,7 @@ export default function Home() {
             <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
               <p>Copyright &copy; {new Date().getFullYear()} Product Engineered.</p>
               <p>
-                Follow on X:{" "}
+                Made by:{" "}
                 <a
                   href="https://x.com/mulholo"
                   className="underline decoration-neutral-400 underline-offset-2 transition-colors hover:text-black"
