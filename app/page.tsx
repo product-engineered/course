@@ -57,7 +57,7 @@ export default function Home() {
               style={heroTitleStyle}
             >
                 <span className="block">Skip the vibe coding.</span>
-                <span className="block">Learn to deliver production-grade ️software with AI.</span>
+                <span className="block">Learn to build production-grade software with AI.</span>
             </h1>
             <p className="mt-7 max-w-2xl border-l border-neutral-400 pl-4 text-base leading-7 text-neutral-600 sm:text-lg">
               Agentic Engineering in Production is your playbook for shipping real
