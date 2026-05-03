@@ -1,8 +1,39 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #fafafa;
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+}
+
+@theme {
+  --color-paper: #f4f1e8;
+  --color-ink: #1a1814;
+  --color-brand-gray-50: #ece8de;
+  --color-brand-gray-100: #ddd8cc;
+  --color-brand-gray-200: #c5bfb1;
+  --color-brand-gray-300: #a8a294;
+  --color-brand-gray-400: #8b8579;
+  --color-brand-gray-500: #6e695e;
+  --color-brand-gray-600: #524e45;
+  --color-brand-gray-700: #3a3730;
+  --color-brand-gray-800: #2a2722;
+  --color-brand-gray-900: #1a1814;
+  --color-signal-red: #b83a2e;
+  --color-signal-orange: #c45a1e;
+  --color-signal-yellow: #d4a41c;
+  --color-signal-green: #2e6b3f;
+  --color-signal-cyan: #1a8ba8;
+  --color-signal-blue: #1e3f8c;
+  --color-signal-violet: #5a3d8c;
+  --color-signal-magenta: #b22f75;
+  --color-earth-brick: #8c3a30;
+  --color-earth-rust: #964a20;
+  --color-earth-ochre: #a88424;
+  --color-earth-olive: #6b6e2e;
+  --color-earth-teal: #2f6b6f;
+  --color-earth-indigo: #2d4885;
+  --color-earth-plum: #5c3a6e;
+  --color-earth-wine: #8a2f58;
 }
 
 @theme inline {
@@ -19,70 +50,15 @@ body {
 }
 
 .landing-grid {
-  background-color: #0a0a0a;
-  background-image:
-    linear-gradient(rgba(38, 38, 38, 0.42) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(38, 38, 38, 0.42) 1px, transparent 1px);
-  background-position: center top;
-  background-size: 64px 64px;
+  background-color: var(--color-brand-gray-100);
 }
 
 .page-load {
-  animation: page-load-in 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
-.page-load-1 {
-  animation-delay: 40ms;
-}
-
-.page-load-2 {
-  animation-delay: 80ms;
-}
-
-.page-load-3 {
-  animation-delay: 130ms;
-}
-
-.page-load-4 {
-  animation-delay: 180ms;
-}
-
-.page-load-5 {
-  animation-delay: 240ms;
-}
-
-.page-load-6 {
-  animation-delay: 300ms;
-}
-
-.page-load-7 {
-  animation-delay: 360ms;
-}
-
-@keyframes page-load-in {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes tag-fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  opacity: 1;
 }
 
 .q2-tag {
-  animation: tag-fade-in 900ms ease-out 300ms both;
+  opacity: 1;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -96,6 +72,6 @@ body {
 }
 
 ::selection {
-  background: #22c55e;
-  color: #0a0a0a;
+  background: var(--color-signal-yellow);
+  color: var(--color-ink);
 }
