@@ -6,6 +6,8 @@
 }
 
 @theme {
+  --breakpoint-sm: 35rem;
+
   --color-red: #c8362f;
   --color-green: #2c7a3f;
   --color-yellow: #ddb033;
