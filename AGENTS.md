@@ -29,6 +29,8 @@ Use `pnpm` for this project. Do not use `npm`, `npx`, `yarn`, or `bun` for depen
 - Timeless
 - Simple, clear and easy to use
 - Prefer grid layouts
+- Text based
+- Minimal: Content is only included when it serves a clear purpose
 
 ## Colors
 | Group | Name | Hex |
