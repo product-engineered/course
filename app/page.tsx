@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 
+import { CommitGraph } from "./commit-graph";
 import { WaitlistForm } from "./waitlist-form";
 
 const heroTitleStyle = {
@@ -68,7 +69,11 @@ export default function Home() {
           </div>
         </section>
 
-        <footer className="px-5 py-4 sm:px-8">
+        <section className="mt-12 px-5 pb-8 sm:mt-16 sm:px-8 sm:pb-12">
+          <CommitGraph />
+        </section>
+
+        <footer className="mt-auto px-5 py-4 sm:px-8">
           <div className="border-t border-black pt-4">
             <div className="flex flex-col gap-3 font-mono text-xs font-semibold uppercase tracking-normal text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
               <p>Copyright &copy; {new Date().getFullYear()} Product Engineered</p>
