@@ -66,9 +66,8 @@ export function CommitGraph() {
   return (
     <div className="w-full" aria-hidden="true">
       <div className="commit-graph">{cells}</div>
-      <div className="mt-3 flex items-center justify-between font-mono text-[11px] font-semibold uppercase tracking-wider text-neutral-500">
-        <span>Before</span>
-        <span>After</span>
+      <div className="mt-3 font-mono text-[11px] font-semibold uppercase tracking-wider text-neutral-500">
+        Accelerate your output
       </div>
     </div>
   );

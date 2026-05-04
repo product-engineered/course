@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-12 px-5 pb-8 sm:mt-16 sm:px-8 sm:pb-12">
+        <section className="px-5 pt-3 sm:px-8">
           <CommitGraph />
         </section>
 
